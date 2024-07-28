@@ -8,11 +8,17 @@ body {
 
 .stopwatch {
     text-align: center;
+    border: 2px solid #000000; 
+    padding: 20px;
+    border-radius: 10px; 
+    box-shadow: 0 0 10px rgba(17, 183, 201, 0.1); /* Subtle shadow */
+    background-color: #ff0000; 
 }
 
 #display {
     font-size: 3em;
     margin-bottom: 20px;
+    color: aqua;
 }
 
 .controls button {
@@ -20,6 +26,8 @@ body {
     padding: 10px 20px;
     margin: 5px;
     cursor: pointer;
+    background-color: blue;
+    color: white;
 }
 
 #laps {
