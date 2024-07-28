@@ -4,7 +4,7 @@ body {
     align-items: center;
     height: 100vh;
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+    background-color: #22ff00;
 }
 
 .game {
@@ -20,17 +20,17 @@ body {
 .cell {
     width: 100px;
     height: 100px;
-    background-color: #fff;
+    background-color: #ff0000;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 2em;
     cursor: pointer;
-    border: 2px solid #000;
+    border: 2px solid #000000;
 }
 
 .cell:hover {
-    background-color: #f1f1f1;
+    background-color: #ff0000;
 }
 
 .info {
@@ -46,4 +46,6 @@ body {
     padding: 10px 20px;
     font-size: 1em;
     cursor: pointer;
+    color: rgb(0, 0, 0);
+    background-color: aliceblue;
 }
