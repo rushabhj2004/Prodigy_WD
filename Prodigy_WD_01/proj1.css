@@ -2,13 +2,14 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    color: black;
 }
 
 nav {
     position: fixed;
     top: 0;
     width: 100%;
-    background: #333;
+    background: #ff0000;
     color: white;
 }
 
@@ -25,14 +26,14 @@ nav ul li {
 }
 
 nav ul li a {
-    color: white;
+    color: rgb(0, 0, 0);
     text-decoration: none;
     padding: 15px 20px;
     display: block;
 }
 
 nav ul li a:hover {
-    background: #555;
+    background: #ffc400;
 }
 
 section {
@@ -41,5 +42,5 @@ section {
 }
 
 #navbar.scrolled {
-    background: #222;
+    background: #ffea00;
 }
