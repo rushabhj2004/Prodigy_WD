@@ -6,8 +6,8 @@ body {
 }
 
 header {
-    background-color: #222;
-    color: white;
+    background-color: #ff0000;
+    color: rgb(0, 0, 0);
     padding: 10px 0;
 }
 
@@ -32,7 +32,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: white;
+    color: rgb(0, 0, 0);
     text-decoration: none;
 }
 
@@ -43,19 +43,19 @@ nav ul li a {
 
 #home {
     background: linear-gradient(135deg, #74ebd5 0%, #acb6e5 100%);
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 #about {
-    background: #f4f4f4;
+    background: #00eeff;
 }
 
 #projects {
-    background : #76ec7d;
+    background : #f500f9;
 }
 
 #contact {
-    background: #7566ff;
+    background: #ffea00;
 }
 
 .project-list {
